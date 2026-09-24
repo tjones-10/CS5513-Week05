@@ -1,6 +1,4 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-#file only WebStorm uses
-.idea
 
 # dependencies
 /node_modules
@@ -19,20 +17,9 @@
 
 # misc
 .DS_Store
-*.pem
+.env*
 
 # debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# local env files
-.env*.local
-.env
-
-# vercel
-.vercel
-
-# typescript
-*.tsbuildinfo
-next-env.d.ts
