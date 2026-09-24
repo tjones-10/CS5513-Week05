@@ -50,6 +50,7 @@ export function getPostData(id) {
             id: id,
             title: '--Blank--',
             date: '1970-01-01',
+            author: 'None',
             contentHtml: '<p>No Content</p>'
         }
     } else {
